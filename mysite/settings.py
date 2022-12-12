@@ -83,23 +83,23 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'https://www.cleardb.com/database/details?id=BD8B2A9526AC79956B2C6BFD5052A910',
-        'USER': 'b509489e0f6388',
-        'PASSWORD': '2aeef047',
-        'HOST': 'us-cdbr-east-06.cleardb.net',
-        'PORT': '3299',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'https://www.cleardb.com/database/details?id=BD8B2A9526AC79956B2C6BFD5052A910',
+#         'USER': 'b509489e0f6388',
+#         'PASSWORD': '2aeef047',
+#         'HOST': 'us-cdbr-east-06.cleardb.net',
+#         'PORT': '3299',
+#     }
+# }
 
 
 # Password validation
