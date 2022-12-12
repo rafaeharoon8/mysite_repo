@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mysite_db',
+        'NAME': 'https://www.cleardb.com/database/details?id=BD8B2A9526AC79956B2C6BFD5052A910',
         'USER': 'b509489e0f6388',
         'PASSWORD': '2aeef047',
         'HOST': 'us-cdbr-east-06.cleardb.net',
